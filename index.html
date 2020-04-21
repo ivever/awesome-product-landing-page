@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <main>
+    <header id="header">
+        <div class="topnav" id="myTopnav">
+            <div class="first-main">
+                <a href="#home" class="active">Landing</a>  
+            </div>
+            
+                <div class="left">
+                    <a href="#news">HOME</a>
+                    <a href="#contact">FEATURES</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">REVIEWS 
+                             <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div> 
+                            <a href="#about">PRICING</a>
+                            <a href="#about">BUY IT</a>
+                            <a href="#about" id="buy-now">BUY NOW</a>
+                </div>
+                            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+       
+    </header>
+  </main>
+  
+  <div class="product-container">
+    <div id="wrapper">
+        <div id="product">
+            <h1>Present your <br> 
+            <mark>awesome</mark> <br> 
+                  product</h1>
+                  <p style="width: 30vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos officiis reiciendis ex fuga optio magni, et itaque tempore eligendi quisquam repellat commodi? Asperiores, eos?</p>
+                  <button id="productbtn"><i class="fa fa-play"></i>WATCH VIDEO
+                  </button>
+        </div>
+        <div id="product-img">
+            <img src="https://ss7.vzw.com/is/image/VerizonWireless/Apple_iPhone_11_Red_09102019_b?$png8alpha256$&hei=520" alt="iwatch">
+        </div>
+    </div>
+</div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</body>
+</html>
